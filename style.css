@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+
+
+
 .blocks{
     display: flex;
     flex-direction: row;
@@ -42,6 +45,23 @@
     flex-basis: 70vh;
     padding: 2%;
 }
+.highButton{
+    background-color: white;
+    border: 2px solid #008CBA;
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 14px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.highButton:hover {
+    background-color: #008CBA;
+    color: white;
+  }
 .main-text-first{
     font-family: "Libre Baskerville";
     font-size: 14pt;
@@ -83,6 +103,77 @@
         max-width: 100%;
         height: auto;
 }
+.SaveButton1, .SaveButton2, .SaveButton3, .SaveButton4{
+    background-color:white;
+    border: 2px solid #6cd9a3;
+    color: #036334;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 14px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.SaveButton1:hover {
+    background-color: #6cd9a3;
+    color: white;
+  }
+  .SaveButton2:hover {
+    background-color: #6cd9a3;
+    color: white;
+  }
+  .SaveButton3:hover {
+    background-color: #6cd9a3;
+    color: white;
+  }
+  .SaveButton4:hover {
+    background-color: #6cd9a3;
+    color: white;
+  }
+.DiascardButton1, .DiascardButton2, .DiascardButton3, .DiascardButton4{
+    background-color:white;
+    border: 2px solid #d17160;
+    color: #631002;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 14px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.DiascardButton1:hover {
+    background-color: #d17160;
+    color: white;
+  }
+  .DiascardButton2:hover {
+    background-color: #d17160;
+    color: white;
+  }
+  .DiascardButton3:hover {
+    background-color: #d17160;
+    color: white;
+  }
+  .DiascardButton4:hover {
+    background-color: #d17160;
+    color: white;
+  }
+  input[type=text] {
+    width: 30%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 2px solid #008CBA;
+  }
+  .func{
+    font-family: "Libre Baskerville";
+    font-size: 14pt;
+    padding-top: 3%;
+  }
 
 
 .footer-block{
@@ -100,6 +191,7 @@
     flex-grow: 6;
 }
 .text-in-footer{
+    background: #88b0ba;
     font-family: Play;
     font-size: 12px;
     padding: 2%;

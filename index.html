@@ -4,6 +4,7 @@
     <title>First Page</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="secondLab.js"></script>
 </head>
 
 <body>
@@ -16,6 +17,10 @@
         </header>
 
         <main class="main-block">
+
+                <input type="text" size="24" class="colorInput">
+                <button onClick="SaveColor()" class="highButton">Save</button>
+
             <p class="main-text-first">
                 The Chihuahua is a tiny dog with a huge personality. A national symbol of Mexico, these alert and amusing "purse dogs"
                     stand among the oldest breeds of the Americas, with a lineage going back to the ancient kingdoms of pre-Columbian times.
@@ -32,10 +37,29 @@
                     (loose kneecaps). Idiopathic epilepsy is also known to occur in the breed.
             </p>
             <img class="dog-img" src="dog.jpg" alt="Meme dog">
+            <p class="func">  </p>
+
+            <div class="some-list">
+                <ol>
+                    <li class="buttonOne">
+                       <p onClick="ChangeImage('text-in-footer', 'url(\'backgroundFirst.jpg\')',  'backgroundImage1', 'SaveButton1', 'DiascardButton1', '#88b0ba', '.buttonOne')">first/fourth block</p> 
+                    </li>
+                    <li class="buttonTwo">
+                        <p onClick="ChangeImage('menu-block', 'url(\'backgroundThird.jpg\')',  'backgroundImage2', 'SaveButton2', 'DiascardButton2', '#eadbff', '.buttonTwo')">second block</p>
+                    </li>
+                    <li class="buttonThree">
+                        <p onClick="ChangeImage('main-block', 'url(\'backgroundSecond.jpg\')',  'backgroundImage3', 'SaveButton3', 'DiascardButton3', '#b6c9cf', '.buttonThree')">third block</p>
+                    </li>
+                    <li class="buttonFife">
+                        <p onClick="ChangeImage('info-block', 'url(\'backgroundFifth.jpg\')',  'backgroundImage4', 'SaveButton4', 'DiascardButton4', '#ad88d1', '.buttonFife')">fifith block</p>
+                    </li>
+                </ol>
+            </div>
+
         </main>
 
         <footer class="footer-block">
-            <h1 class="logo2">Rozhkovan & Co</h1>
+            <h1 class="logo2">Rozhkovan & </h1>
                     <div class="text-in-footer">
                         <p>Some info that usualy is witten in footer.</p>
                         <p>All rights reserved and blah blah blah.</p>
@@ -47,7 +71,7 @@
         <p></p>
     </div>
     <div class="left-side">
-        <nav class="menu-block">
+        <nav class="menu-block" onmouseout="SaveColor()" onmouseover="SetDefault()">
             <li><a href="secondPage.html">Second page</a></li>
                 <li><a href="thirdPage.html">Third page</a></li>
                 <li><a href="fourthPage.html">Fourth page</a></li>
