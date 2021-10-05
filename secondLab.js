@@ -7,7 +7,7 @@ function main() {
     
     //3
     
-    if(document.cookie !== "lenght=")
+    if(document.cookie !== undefined || document.cookie !== "lenght=")
     {
         alert("Delete cookie: " + document.cookie);
         document.cookie = "lenght=";
