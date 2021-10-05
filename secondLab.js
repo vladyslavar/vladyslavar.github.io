@@ -6,14 +6,14 @@ function main() {
 
     
     //3
-    /*
+    
     if(document.cookie !== "lenght=")
     {
         alert("Delete cookie: " + document.cookie);
         document.cookie = "lenght=";
         alert("cookies are deleted")
         location.reload();
-    }*/
+    }
 
     //4
     if(localStorage.getItem("color"))
