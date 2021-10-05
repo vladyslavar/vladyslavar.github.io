@@ -76,22 +76,27 @@ function SaveColor()
 {
     console.log("in save color")
 
-    if(localStorage.getItem("color") === document.getElementsByClassName("colorInput")[0].value)
+    /*if(localStorage.getItem("color") === document.getElementsByClassName("colorInput")[0].value)
     {
         var menu2 = document.getElementsByClassName("menu-block")[0];
         menu2.style.background = window.localStorage.getItem("color");
     }
     else
-    {
+    {*/
         var userColor = document.getElementsByClassName("colorInput")[0];
         window.localStorage.setItem("color", userColor.value);
 
         var menu = document.getElementsByClassName("menu-block")[0];
         console.log(window.localStorage.getItem("color"));
         menu.style.background = window.localStorage.getItem("color");
-    }
+    //}
     
     
+}
+
+function SetChoosenColor(){
+    var menu2 = document.getElementsByClassName("menu-block")[0];
+    menu2.style.background = window.localStorage.getItem("color");
 }
 function SetDefault()
 {
