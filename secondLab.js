@@ -12,7 +12,7 @@ function main() {
         alert("Delete cookie: " + document.cookie);
         document.cookie = "lenght=";
         alert("cookies are deleted")
-        location.reload();
+        //location.reload();
     }
 
     //4
@@ -58,10 +58,10 @@ function main() {
     //3
     var text = document.querySelector("[class='main-text-first']");
     var textArr = text.innerText.trim().split(/\s+/)
-    //alert(textArr.length);
+    alert("lenght of the text is " + textArr.length);
     var len = textArr.length;
     document.cookie = "lenght=" + len.toString();
-    console.log(document.cookie);
+    //console.log(document.cookie);
 
 }
 
